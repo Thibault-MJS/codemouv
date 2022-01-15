@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/Thibault-MJS/codemouv/issues"
   },
-  "homepage": "https://github.com/Thibault-MJS/codemouv#readme"
+  "homepage": "https://github.com/Thibault-MJS/codemouv#readme",
+  "dependencies": {
+    "custom-console22": "^0.1.1",
+    "dotenv": "^12.0.3",
+    "express": "^4.17.2",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0"
+  }
 }
