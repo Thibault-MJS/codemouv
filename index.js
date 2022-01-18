@@ -2,6 +2,10 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 
+// Connexion à la base de donnée.
+
+require("./src/utils/Database");
+
 // Importation des différentes routes
 
 const CoursesRoute = require("./src/routes/CoursesRoute");
