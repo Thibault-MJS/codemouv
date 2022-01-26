@@ -18,3 +18,5 @@ app.use(bodyParser.json());
 // Application des différentes routes pour l'API
 
 app.use("/api/courses", CoursesRoute);
+
+app.listen(process.env.LOCAL_PORT);
